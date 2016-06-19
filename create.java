@@ -22,6 +22,7 @@ public class create
 			//box check
 			for(int y = (i/3)*3; y < ((i/3)*3)+3; y++)
 			{
+				
 				for(int x = (j/3)*3; x < ((j/3)*3)+3; x++)
 					if(key == grid[y][x])
 					{
